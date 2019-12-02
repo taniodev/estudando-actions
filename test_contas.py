@@ -2,7 +2,7 @@ from contas import multiplicar, somar, subtrair
 
 
 def test_multiplicar():
-        assert multiplicar(3, 2) == 6
+    assert multiplicar(3, 2) == 6
 
 
 def test_somar():
@@ -10,4 +10,4 @@ def test_somar():
 
 
 def test_subtrair():
-        assert subtrair(9, 4) == 5
+    assert subtrair(9, 4) == 5
